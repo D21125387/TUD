@@ -1,0 +1,83 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto Thin", sans-serif;
+}
+
+.container {
+    margin: auto;
+    max-width: 732px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+
+.row-reverse {
+    float: left;
+    width: 100%;
+}
+
+.row-reverse > div {
+    float: right !important;
+}
+
+.sidebar {
+    width: 25%;
+    float: left;
+    padding: 1%;
+}
+
+.sidebar .content h2 {
+    padding: 10px 10px 10px 0;
+}
+
+.sidebar .content p {
+    padding: 10px;
+}
+
+.article {
+    width: 75%;
+    float: left;
+    padding: 1%;
+}
+
+article {
+    float: left;
+    width: 100%;
+    border-bottom: 3px solid rgba(99, 124, 139, 0.73);
+}
+
+.article-content {
+    float: left;
+    width: 70%;
+}
+
+.article-img {
+    margin: auto;
+    float: left;
+    width: 30%;
+    padding: 2%;
+}
+
+.article-img img {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+article .row, article .row-reverse {
+    padding: 2% 2% 20px 2%;
+}
+

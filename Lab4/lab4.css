@@ -1,0 +1,48 @@
+.required {
+    color: red;
+    margin-left: 5px;
+}
+
+.container {
+    width: 50%;
+}
+
+.headline {
+    width: 46%;
+    padding: 1%;
+    float: left;
+}
+
+.headline-img {
+    float: left;
+    width: 35%;
+}
+
+.headline-img img {
+    width: 100%;
+    height: auto;
+}
+
+.headline-content {
+    float: left;
+    width: 61%;
+    padding: 1%;
+}
+
+.headline-content h4, p {
+    margin: 0;
+}
+
+.headline ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.headline ul > li:before {
+    content: "- "
+}
+
+.headline a {
+    text-decoration: none;
+}
