@@ -1,0 +1,119 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Light", sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.image {
+    width: 100%;
+    display: block;
+}
+
+.title, .content {
+    width: 70%;
+}
+
+.header-widget, .sidebar {
+    width: 30%;
+}
+
+.header-widget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+.title img {
+}
+
+.content-header, .content {
+    padding: 0 22px !important;
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-wrapper {
+    display: flex;
+}
+
+.content article img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: auto;
+}
+
+.login-form {
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+}
+
+.login-form div {
+    margin: 0;
+    padding: 0;
+}
+
+.username, .password {
+    display: flex;
+}
+
+.username label, .password label {
+    min-width: 35%;
+    align-self: center;
+}
+
+.username input, .password input {
+    width: 65%;
+}
+
+.links {
+    display: inline-block;
+}
+
+.links a {
+    width: 50%;
+    float: left;
+}
+
+.content-items {
+    display: inline-block;
+}
+
+.content-item {
+    display: inline-block;
+    float: left;
+    width: 48%;
+}
+
+.content-item .image img {
+    width: 100%;
+}
+
+.morelinks {
+    margin-top: 30%;
+}
+
+.morelinks ul {
+    list-style: none;
+    font-size: 0.8em;
+}
+
+#search {
+    position: absolute;
+    bottom: 82.5%;
+    right: 27.5%;
+}
