@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: indianred;
+}
+
+.image-fluid {
+    width: 100%;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1020px;
+    margin: auto;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.vh-100-p {
+    height: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-block {
+    display: block;
+}
+
+.flex-dir-column {
+    flex-direction: column;
+}
+
+.flex-dir-row {
+    flex-direction: row;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.row {
+    width: 100%;
+}
+
+.breadcrumb ul {
+    list-style: none;
+}
+
+.breadcrumb ul li {
+    display: inline-block;
+    padding: 0.5%;
+    border-left: lightgray solid 1px;
+}
+
+.breadcrumb ul li:first-child {
+    border-left: transparent solid 1px !important;
+}
+
+.breadcrumb ul li:last-child {
+    border-right: transparent solid 1px !important;
+}
+
+.main {
+    width: 65%;
+    padding: 0.5%;
+}
+
+.main h1 {
+    font-size: 2em;
+}
+
+.sidebar {
+    width: 35%;
+    padding: 1%;
+    margin-left: 1%;
+}
+
+.article-text {
+    width: 40%;
+}
+
+.article-image {
+    width: 60%;
+}
+
+.widget-1 {
+    border-left: lightgray solid 1px;
+    margin-bottom: 5%;
+}
+
+.widget-2 {
+    border-top: lightgray solid 1px;
+    border-left: lightgray solid 1px;
+}
+
+.widget-item {
+    display: flex;
+    margin: 2.5% 0 0 5%;
+}
+
+.widget-item p:first-child {
+    font-size: 0.9em;
+}
+
+.widget-1 .widget-item {
+    display: block !important;
+}
+
+.widget-text {
+    padding: 0.5%;
+    margin-left: 2.5%;
+}
+
+.play-arrow {
+    transform: translateY(-100%);
+    width: 70%;
+    background: rgba(0,0,0,0.5);
+}
+
+.topbanner {
+    height: 40.8px;
+    border-bottom: indianred solid 1px;
+}
+
+.topbanner-image {
+    width: 80%;
+}
+
+.topbanner-form {
+    text-align: center;
+    width: 20%;
+}
+
+.topbanner-form input, .topbanner-form button {
+    outline: none !important;
+    border: none;
+    font-size: 1em;
+    background: rgb(225, 225, 225);
+    padding: 1%;
+}
+
+.topbanner-form button {
+    cursor: pointer;
+}
+
+.widget-links {
+    margin-top: 10%;
+}
+
+.widget-links ul {
+    list-style: none;
+    font-size: 0.9em;
+}
+
+.widget-links ul li a {
+    color: black;
+}
+
+.article-text p {
+    margin-bottom: 5%;
+}
+
+span.underline {
+    border-bottom: indianred solid 2px;
+    transform: translateY(-125%);
+    display: inline-block;
+    position: absolute;
+}
+
+.live {
+    max-height: 1.25em;
+}
