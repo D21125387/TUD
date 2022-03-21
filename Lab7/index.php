@@ -11,5 +11,6 @@
     function multiply($x, $y){
         return $x*$y;
     }
+    // data from FORM.html
 
     echo multiply($_POST["x"],$_POST["y"]);
