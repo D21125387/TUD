@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab9</title>
+</head>
+<body>
+
+<button><a href="showproducts.php">Show All Products</a></button>
+
+<h2>Search Product By Name</h2>
+<form action="showproduct.php" method="post">
+    <label for="showproduct_pname"></label><input type="text" name="showproduct_pname" id="showproduct_pname" placeholder="Search for a product name">
+    <input type="submit">
+</form>
+
+<h2>Add Product</h2>
+<form action="addproduct.php" method="post">
+    <label for="addproduct_pname"></label><input type="text" name="addproduct_pname" id="addproduct_pname" placeholder="Product Name"><br>
+    <label for="addproduct_description"></label><input type="text" name="addproduct_description" id="addproduct_description" placeholder="Product Description"><br>
+    <label for="addproduct_price"></label><input type="number" name="addproduct_price" id="addproduct_price" placeholder="Product Price"><br>
+    <label for="addproduct_stock"></label><input type="number" name="addproduct_stock" id="addproduct_stock" placeholder="Product Stock"><br>
+    <input type="submit">
+</form>
+
+<h2>Update Product By ID</h2>
+<form action="updateproduct.php" method="post">
+    <input type="text" name="updateproduct_id" id="updateproduct_id" placeholder="Product ID" required><br>
+    <input type="text" name="updateproduct_pname" id="updateproduct_pname" placeholder="Product Name"><br>
+    <input type="text" name="updateproduct_description" id="updateproduct_description" placeholder="Product Description"><br>
+    <input type="text" name="updateproduct_price" id="updateproduct_price" placeholder="Product Price"><br>
+    <input type="text" name="updateproduct_stock" id="updateproduct_stock" placeholder="Product Stock"><br>
+    <input type="submit">
+</form>
+
+<h2>Delete Product</h2>
+<form action="deleteproduct.php" method="post">
+    <input type="text" name="deleteproduct_id" id="deleteproduct_id" placeholder="Product ID"><br>
+    <input type="submit">
+</form>
+
+</body>
+</html>
